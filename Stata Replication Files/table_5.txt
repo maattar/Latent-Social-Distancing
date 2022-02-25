@@ -1,0 +1,13 @@
+		(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	LABELS	Weekends Excluded	Weekends Excluded	Weekends Excluded	Weekends and Holidays Excluded	Weekends and Holidays Excluded	Weekends and Holidays Excluded
+							
+dist	MIDIS	0.208***	0.160***	0.105**	0.230***	0.183***	0.113***
+		(0.025)	(0.034)	(0.042)	(0.024)	(0.031)	(0.036)
+							
+R-squared		0.097	0.369	0.410	0.136	0.482	0.533
+Country FE		No	Yes	Yes	No	Yes	Yes
+Time FE		No	No	Yes	No	No	Yes
+R2		0.0969	0.369	0.410	0.136	0.482	0.533
+#obs		642	642	642	590	590	590
+Robust standard errors in parentheses							
+*** p<0.01, ** p<0.05, * p<0.1							

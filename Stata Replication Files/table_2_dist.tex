@@ -1,0 +1,31 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{tabular}{lcccccccc} \hline
+ & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) \\
+VARIABLES & Driving & Walking & Retail & Grocery/Pharmacy & Parks & Transit Stations & Workplace & Residential \\ \hline
+ &  &  &  &  &  &  &  &  \\
+A-driving & -0.068 &  &  &  &  &  &  &  \\
+ & (0.061) &  &  &  &  &  &  &  \\
+A-walking &  & -0.061 &  &  &  &  &  &  \\
+ &  & (0.056) &  &  &  &  &  &  \\
+G-retail/recreation &  &  & -0.082** &  &  &  &  &  \\
+ &  &  & (0.037) &  &  &  &  &  \\
+G-grocery/phamarcy &  &  &  & -0.035 &  &  &  &  \\
+ &  &  &  & (0.026) &  &  &  &  \\
+G-parks &  &  &  &  & 0.026 &  &  &  \\
+ &  &  &  &  & (0.028) &  &  &  \\
+G-transit stations &  &  &  &  &  & -0.112** &  &  \\
+ &  &  &  &  &  & (0.044) &  &  \\
+G-workplace &  &  &  &  &  &  & -0.105*** &  \\
+ &  &  &  &  &  &  & (0.032) &  \\
+G-residential &  &  &  &  &  &  &  & 0.160* \\
+ &  &  &  &  &  &  &  & (0.085) \\
+ &  &  &  &  &  &  &  &  \\
+Overall R2 & 0.113 & 0.101 & 0.146 & 0.0421 & 0.0247 & 0.109 & 0.132 & 0.0674 \\
+\#countries & 59 & 59 & 120 & 120 & 120 & 120 & 120 & 120 \\
+ \#obs & 1767 & 1767 & 3594 & 3590 & 3594 & 3582 & 3594 & 3592 \\ \hline
+\multicolumn{9}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{9}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+\end{document}

@@ -1,0 +1,25 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)
+VARIABLES	LABELS	Driving	Walking	Retail	Grocery/Pharmacy	Parks	Transit Stations	Workplace	Residential
+									
+a_driving	A-driving	-0.106*							
+		(0.061)							
+a_walking	A-walking		-0.090*						
+			(0.053)						
+g_retailrecreation	G-retail/recreation			-0.149***					
+				(0.044)					
+g_grocerypharmacy	G-grocery/phamarcy				-0.080**				
+					(0.037)				
+g_parks	G-parks					0.020			
+						(0.034)			
+g_transitstations	G-transit stations						-0.203***		
+							(0.049)		
+g_workplace	G-workplace							-0.173***	
+								(0.048)	
+g_residential	G-residential								0.278**
+									(0.117)
+									
+Overall R2		0.204	0.188	0.166	0.0605	0.0190	0.115	0.123	0.0866
+#countries		42	42	53	53	53	53	53	53
+#obs		1260	1260	1590	1586	1590	1578	1590	1588
+Robust standard errors in parentheses									
+*** p<0.01, ** p<0.05, * p<0.1									

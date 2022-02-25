@@ -1,0 +1,37 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)
+VARIABLES	LABELS	Governmental	Governmental & Behavioral	Comparative Development	Comparative Development	Comparative Development	Comparative Development	Comparative Development	Fixed Effects
+									
+L.econsuppindex	Oxford Economic Support Index = L,	0.140***	0.112***	0.108***	0.104***	0.103***	0.111***	0.106***	0.097***
+		(0.027)	(0.028)	(0.029)	(0.028)	(0.028)	(0.031)	(0.028)	(0.010)
+L.dec	number of deceased = L,		1.987***	1.947***	1.979***	1.948***	2.075***	1.940***	1.897***
+			(0.405)	(0.403)	(0.404)	(0.398)	(0.444)	(0.400)	(0.187)
+tp1	days passed since the first case	0.372***	0.353***	0.369***	0.367***	0.379***	0.344***	0.375***	0.404***
+		(0.063)	(0.064)	(0.067)	(0.066)	(0.065)	(0.067)	(0.065)	(0.020)
+EAP	East Asia and Pacific							-4.902	
+								(4.156)	
+ECA	Europe and Central Asia							-12.638***	
+								(2.434)	
+LAC	Latin America and Carribean							-19.014***	
+								(3.513)	
+MENA	Middle East and North Africa							-13.780***	
+								(3.497)	
+SA	South Asia							-8.794***	
+								(3.150)	
+SSA	Sub-Saharan Africa							-30.441***	
+								(3.653)	
+hc	human capital index			8.144***					
+				(1.993)					
+spi	social progress index				0.488***				
+					(0.091)				
+lgdpc	lgdpc					6.609***			
+						(1.209)			
+ethnofrac	ethnolinguistic F-fractionalization						-0.083		
+							(0.056)		
+									
+R-squared									0.746
+Overall R2		0.0261	0.0282	0.0797	0.117	0.113	0.0429	0.175	
+#countries		119	119	114	114	116	109	119	
+#obs		3451	3446	3301	3301	3359	3156	3446	3446
+R2									0.746
+Robust standard errors in parentheses									
+*** p<0.01, ** p<0.05, * p<0.1									
